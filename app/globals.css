@@ -1,26 +1,98 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
+/* ---------- LIGHT THEME (ONLY) ---------- */
 :root {
+  /* Page background (white) */
   --background: #ffffff;
+
+  /* Default text color (black) */
   --foreground: #171717;
+
+  /* Card background (white) */
+  --card: #ffffff;
+
+  /* Card text (black) */
+  --card-foreground: #171717;
+
+  /* Popover (tooltip/menu background) */
+  --popover: #ffffff;
+
+  /* Popover text (black) */
+  --popover-foreground: #171717;
+
+  /* Primary color (calm Pakistan green) */
+  --primary: #1c4d1c;
+
+  /* Primary text (near-white for contrast) */
+  --primary-foreground: #fafafa;
+
+  /* Secondary background (light gray) */
+  --secondary: #f7f7f7;
+
+  /* Secondary text (green for contrast) */
+  --secondary-foreground: #1c4d1c;
+
+  /* Muted background (light gray) */
+  --muted: #f7f7f7;
+
+  /* Muted text (medium gray) */
+  --muted-foreground: #555555;
+
+  /* Accent background (light gray) */
+  --accent: #f7f7f7;
+
+  /* Accent text (green) */
+  --accent-foreground: #1c4d1c;
+
+  /* Destructive (red for delete/danger) */
+  --destructive: #d9534f;
+
+  /* Destructive text (white) */
+  --destructive-foreground: #ffffff;
+
+  /* Borders (light gray) */
+  --border: #eaeaea;
+
+  /* Input fields background (light gray) */
+  --input: #eaeaea;
+
+  /* Focus rings (medium gray) */
+  --ring: #b3b3b3;
+
+  /* Border radius for rounded corners */
+  --radius: 10px;
 }
 
+/* ---------- CONNECT TO TAILWIND ---------- */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ---------- BASE STYLES ---------- */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
