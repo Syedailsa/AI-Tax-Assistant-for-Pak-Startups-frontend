@@ -39,6 +39,6 @@ Users can chat with the AI assistant to:
 
 ## 🔗 Backend Connection
 
-This frontend communicates with the backend deployed separately (FastAPI + OpenAI + Pinecone) on render.
-  NEXT_PUBLIC_BACKEND_URL=https://your-backend-url.onrender.com
+This frontend communicates with the backend created using (FastAPI + OpenAI + Pinecone), (not deployed yet due to paid versions).
+  REPO_BACKEND_URL=https://github.com/Syedailsa/AI-Tax-Assistant-for-Pak-Startups-backend.git
 
