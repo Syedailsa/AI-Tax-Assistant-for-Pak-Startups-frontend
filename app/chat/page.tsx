@@ -20,7 +20,7 @@ export default function ChatPage() {
         {
           role: "assistant",
           content:
-            "Assalam-o-Alaikum! I’m your Tax Education assistant for Pakistan. Ask about NTN, filer status, IRIS, sales tax, or withholding. This is a UI demo — no backend connected.",
+            "Assalam-o-Alaikum! I’m TaxEdu your personal assistant for tax education in Pakistan. Ask about NTN, filer status, IRIS, sales tax, or withholding. This is a demo.",
         },
       ])
     }
