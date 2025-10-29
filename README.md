@@ -39,6 +39,6 @@ Users can chat with the AI assistant to:
 
 ## 🔗 Backend Connection
 
-This frontend communicates with the backend created using (FastAPI + OpenAI + Pinecone), (not deployed yet due to paid versions).
+This frontend communicates with the backend created using (FastAPI + OpenAI + Pinecone), deployed on render.
   REPO_BACKEND_URL=https://github.com/Syedailsa/AI-Tax-Assistant-for-Pak-Startups-backend.git
 
