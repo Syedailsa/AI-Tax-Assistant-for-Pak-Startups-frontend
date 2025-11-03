@@ -46,7 +46,7 @@ export default function Footer() {
                 href="mailto:TaxEdupk@gmail.com"
                 className="hover:text-emerald-400 transition-colors"
               >
-                TaxEdupk@gmail.com
+                taxedupk@gmail.com
               </a>
             </div>
             <p className="text-sm text-gray-400">
